@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.param.android.thalaivargal"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="4"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/t"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.param.android.thalaivargal.MainActivity"
+            android:label="@string/app_name" 
+         >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.param.android.thalaivargal.Periyar" >
+            <intent-filter>
+                <action android:name="com.param.android.thalaivargal.Periyar" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.param.android.thalaivargal.Kamarajar" >
+            <intent-filter>
+                <action android:name="com.param.android.thalaivargal.Kamarajar" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.param.android.thalaivargal.Barathi" >
+            <intent-filter>
+                <action android:name="com.param.android.thalaivargal.Barathi" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.param.android.thalaivargal.Anna" >
+            <intent-filter>
+                <action android:name="com.param.android.thalaivargal.Anna" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.param.android.thalaivargal.Vavusi" >
+            <intent-filter>
+                <action android:name="com.param.android.thalaivargal.Vavusi" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> 
+        <activity
+            android:name="com.param.android.thalaivargal.Pushpam"
+            android:label="@string/title_activity_pushpam"
+            android:parentActivityName="com.param.android.thalaivargal.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.param.android.thalaivargal.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>
