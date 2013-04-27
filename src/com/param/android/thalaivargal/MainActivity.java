@@ -76,11 +76,7 @@ public class MainActivity extends Activity {
 	
 	public void main_start(View view)
 	{
-		   Intent intent = new Intent("com.example.thalaivargal.Periyar");
-		//   EditText editText = (EditText) findViewById(R.id.server);
-		   // String message = editText.getText().toString();
-
-		//   intent.putExtra("message", message);
+		   Intent intent = new Intent("com.param.android.thalaivargal.Periyar");
 		   startActivity(intent);
 	}
 	

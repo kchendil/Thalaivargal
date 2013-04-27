@@ -27,13 +27,13 @@ public class Anna extends Activity {
 	public void anna_back(View view)
 	{
 		
-		 startActivity(new Intent("com.example.thalaivargal.Vavusi"));
+		 startActivity(new Intent("com.param.android.thalaivargal.Vavusi"));
 	}
 	
 	public void anna_restart(View view)
 	{
 		
-		startActivity(new Intent("com.example.thalaivargal.Periyar"));
+		startActivity(new Intent("com.param.android.thalaivargal.Periyar"));
 	}
 	
 	

@@ -24,12 +24,12 @@ public class Kamarajar extends Activity {
 	
 	public void kamarajar_back(View view)
 	{
-		 startActivity(new Intent("com.example.thalaivargal.Barathi"));
+		 startActivity(new Intent("com.param.android.thalaivargal.Barathi"));
 	}
 	
 	public void kamarajar_next(View view)
 	{
-		 startActivity(new Intent("com.example.thalaivargal.Vavusi"));
+		 startActivity(new Intent("com.param.android.thalaivargal.Vavusi"));
 	}
 
 	@Override

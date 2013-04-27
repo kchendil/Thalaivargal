@@ -28,13 +28,13 @@ public class Barathi extends Activity {
 	public void barathi_back(View view)
 	{
 		
-		 startActivity(new Intent("com.example.thalaivargal.Periyar"));
+		 startActivity(new Intent("com.param.android.thalaivargal.Periyar"));
 	}
 	
 	public void barathi_next(View view)
 	{
 		
-		 startActivity(new Intent("com.example.thalaivargal.Kamarajar"));
+		 startActivity(new Intent("com.param.android.thalaivargal.Kamarajar"));
 	}
 
 	@Override

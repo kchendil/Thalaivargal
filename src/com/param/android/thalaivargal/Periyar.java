@@ -46,12 +46,12 @@ public class Periyar extends Activity {
 	public void periyar_back(View view)
 	{
 		
-		 startActivity(new Intent("com.example.thalaivargal.Periyar"));
+		 startActivity(new Intent("com.param.android.thalaivargal.Periyar"));
 	}
 	
 	public void periyar_next(View view)
 	{
-		 startActivity(new Intent("com.example.thalaivargal.Barathi"));
+		 startActivity(new Intent("com.param.android.thalaivargal.Barathi"));
 	}
 	
 	@Override

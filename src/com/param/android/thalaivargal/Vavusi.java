@@ -28,13 +28,13 @@ public class Vavusi extends Activity {
 	public void vavusi_back(View view)
 	{
 		
-		 startActivity(new Intent("com.example.thalaivargal.Kamarajar"));
+		 startActivity(new Intent("com.param.android.thalaivargal.Kamarajar"));
 	}
 	
 	public void vavusi_next(View view)
 	{
 		
-		 startActivity(new Intent("com.example.thalaivargal.Anna"));
+		 startActivity(new Intent("com.param.android.thalaivargal.Anna"));
 	}
 
 	@Override
