@@ -9,7 +9,9 @@
     <string name="barathi">Chinnaswami Subramania Bharati  (December 11, 1882 – September 11, 1921) was a Tamil writer, poet, journalist, Indian independence activist and social reformer from Tamil Nadu, India. Popularly known as Mahakavi Bharathiyar , he is a pioneer of modern Tamil poetry.</string>
     <string name="vavusi">Vallinayagam Olaganthan Chidambaram Pillai, (1872-1936) (Tamil: வ. உ. சிதம்பரம் பிள்ளை) popularly known by his initials, V.O.C. (spelt Vaa. Oo.Ce in Tamil), also known as Kappalottiya Tamilan  "The Tamil Helmsman", was a Tamil political leader.</string>
     <string name="anna">Conjeevaram Natarajan Annadurai (15 September 1909 – 3 February 1969), popularly called Anna, or Arignar Anna (Anna the scholar) was a former Chief Minister of the South Indian state of Tamil Nadu. He was the first member of a Dravidian party to hold that post and was also the first non-Congress leader to form a majority government in independent India.</string>
-    <string name="title_activity_malar">Malar</string>
-    <string name="title_activity_pushpam">Pushpam</string>
-
+    <string name="start_button_text">Start</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="restart">Restart</string>
+  
 </resources>

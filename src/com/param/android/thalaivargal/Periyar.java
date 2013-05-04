@@ -24,7 +24,7 @@ public class Periyar extends Activity {
 
 		
 	
-		setContentView(R.layout.activity_main_periyar);
+		setContentView(R.layout.activity_periyar);
 		
 		
 		
