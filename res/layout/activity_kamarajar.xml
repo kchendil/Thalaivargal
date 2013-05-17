@@ -1,4 +1,4 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,44 +7,44 @@
     android:background="#DDE787">
 
     
-     <ImageView  android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
+     <ImageView   
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"     
+          android:layout_marginBottom="20dp"
         android:src="@drawable/kamarajar"/>
     
     
     <TextView
-        android:layout_width="wrap_content"
+    android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="@string/kamarajar" />
+        android:text="@string/kamarajar"
+         android:layout_marginTop="20dp"
+          android:id="@+id/kamarajar_content" />
    
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="horizontal" >
+
 
         <Button
-        android:layout_width="wrap_content"
+               android:id="@+id/kamarajar_back"  
+          android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"
         android:text="@string/back"
          android:onClick="kamarajar_back"
-          android:layout_weight="1" />
+          android:layout_below="@+id/kamarajar_content" />
         
     <Button
+        android:id="@+id/kamarajar_next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"        
         android:text="@string/next" 
-         android:layout_weight="1" 
+           android:layout_marginTop="20dp"
+          android:layout_below="@+id/kamarajar_content"
         android:onClick="kamarajar_next"/>
     
     
-</LinearLayout>
-</LinearLayout>
+
+</RelativeLayout>

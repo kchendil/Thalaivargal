@@ -1,4 +1,4 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,45 +7,45 @@
     android:background="#DDE787">
 
     
-     <ImageView  android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
+     <ImageView  
+    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"     
+          android:layout_marginBottom="20dp" 
         android:src="@drawable/barathi"/>
     
     
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="@string/barathi" />
+        android:text="@string/barathi"
+        android:layout_marginTop="20dp"        
+          android:id="@+id/barathi_content" />
    
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="horizontal" >
+   
 
     
     <Button
-        android:layout_width="wrap_content"
+          android:id="@+id/barathi_back"  
+         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"
         android:text="@string/back"
-         android:onClick="barathi_back"
-          android:layout_weight="1"  
+           android:layout_below="@+id/barathi_content"
+         android:onClick="barathi_back"        
          />
     
     
     <Button
+        android:id="@+id/barathi_next"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
+        android:layout_height="wrap_content"  
         android:text="@string/next" 
-         android:layout_weight="1" 
+           android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+          android:layout_below="@+id/barathi_content"
         android:onClick="barathi_next"/>
-</LinearLayout>
-</LinearLayout>
+
+</RelativeLayout>

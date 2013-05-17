@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Thalaivargal</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="app_name">Thalaivargal</string>    
     <string name="menu_settings">Settings</string>
+    <string name="main">A Slide show about the leaders of TamilNadu, India</string>
     <string name="periyar">Erode Venkata Ramasamy(17 September 1879 – 24 December 1973), affectionately called by his followers as Periyar, Thanthai Periyar or E. V. R., was a businessman, politician, Indian independence and social activist, who started the Self-Respect Movement or the Dravidian Movement and proposed the creation of an independent state called Dravida Nadu, comprising the states of South India. He is also the founder of the socio-cultural organisation, Dravidar Kazhagam.</string>
-    <string name="kamarajar">Kumarasami Kamaraj better known as K. Kamaraj (15 July 1903[2] – 2 October 1975[3]) was an Indian politician from Tamil Nadu widely acknowledged as the "Kingmaker" in Indian politics during the 1960s. He was the chief minister of Tamil Nadu during 1954-1963 and a Member of Parliament during 1952-1954 and 1969-1975. He was known for his simplicity and integrity.</string>
-    <string name="barathi">Chinnaswami Subramania Bharati  (December 11, 1882 – September 11, 1921) was a Tamil writer, poet, journalist, Indian independence activist and social reformer from Tamil Nadu, India. Popularly known as Mahakavi Bharathiyar , he is a pioneer of modern Tamil poetry.</string>
+    <string name="kamarajar">Kamarajar was a former Chief Minister of TamilNadu. He is still remembered for bringing school education to millions of the rural poor by introducing free education and the free Midday Meal Scheme during his tenure as chief minister. He is renowned for bringing lot of industries in TamilNadu.</string>
+    <string name="barathi">Named as Bharathi (meaning KALAIMAGAL) for his expertise in writing poems since childhood. He had written poems in many languages including Tamil, English, Sanskrit, Hindi, Bengal, French, etc. His poems stimulated the Indians to awake and fight against the British domination. His poems were not only helpful in spreading Tamil across the world but also brought freedom to women and society. One of his famous poems is ODDI VILAYADU PAPPA which is an evergreen memory for its vital message towards a child to develop his/her society</string>
     <string name="vavusi">Vallinayagam Olaganthan Chidambaram Pillai, (1872-1936) (Tamil: வ. உ. சிதம்பரம் பிள்ளை) popularly known by his initials, V.O.C. (spelt Vaa. Oo.Ce in Tamil), also known as Kappalottiya Tamilan  "The Tamil Helmsman", was a Tamil political leader.</string>
-    <string name="anna">Conjeevaram Natarajan Annadurai (15 September 1909 – 3 February 1969), popularly called Anna, or Arignar Anna (Anna the scholar) was a former Chief Minister of the South Indian state of Tamil Nadu. He was the first member of a Dravidian party to hold that post and was also the first non-Congress leader to form a majority government in independent India.</string>
+    <string name="anna">C.N.Annadurai was a former Chief Minister of TamilNadu. People fondly called him as Anna. He was a popular orator and writer in both Tamil and English languages.</string>
     <string name="start_button_text">Start</string>
     <string name="back">Back</string>
     <string name="next">Next</string>
     <string name="restart">Restart</string>
   
 </resources>
+

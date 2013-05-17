@@ -1,4 +1,4 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -6,10 +6,10 @@
     android:orientation="vertical"
     tools:context=".MainActivity" >
     
-     <ImageView  android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
+     <ImageView   
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"     
+          android:layout_marginBottom="20dp"
         android:src="@drawable/anna"/>
     
     
@@ -18,31 +18,29 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="@string/anna" />
-   
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="horizontal" >
+        android:text="@string/anna" 
+        android:layout_marginTop="20dp"
+           android:id="@+id/anna_content"/>
+
   <Button
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-         android:layout_weight="1" 
+        android:layout_height="wrap_content"       
         android:text="@string/back"
-         android:onClick="anna_back" />
+         android:onClick="anna_back" 
+          android:id="@+id/anna_back"  
+             android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"
+             android:layout_below="@+id/anna_content"/>
   
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="@string/restart" 
-         android:layout_weight="1" 
-         android:onClick="anna_restart"/>
-    
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"       
+        android:text="@string/restart"
+         android:onClick="anna_restart" 
+          android:id="@+id/anna_restart"  
+             android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+             android:layout_below="@+id/anna_content"/>  
   
-</LinearLayout>
-</LinearLayout>
+
+</RelativeLayout>
