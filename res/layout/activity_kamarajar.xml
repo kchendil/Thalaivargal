@@ -1,50 +1,46 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity" 
-     android:orientation="vertical" 
-    android:background="#DDE787">
+<LinearLayout android:id="@+id/LinearLayout01"
+android:layout_width="fill_parent" android:layout_height="fill_parent"
+android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+ android:background="#DDE787"
+  xmlns:tools="http://schemas.android.com/tools"
+   tools:context=".MainActivity" >
+ <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"      
+        android:src="@drawable/kamarajar"
+           android:layout_marginTop="10dp" 
+           android:contentDescription="Kamarajar"/>
 
-    
-     <ImageView   
-         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"     
-          android:layout_marginBottom="20dp"
-        android:src="@drawable/kamarajar"/>
-    
-    
-    <TextView
-    android:layout_width="match_parent"
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.55" >
+
+    <TextView android:id="@+id/vavusi_content" android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="@string/kamarajar"
-         android:layout_marginTop="20dp"
-          android:id="@+id/kamarajar_content" />
-   
+        android:text="@string/kamarajar"/>
+</ScrollView>
 
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="60dp" >
 
-        <Button
-               android:id="@+id/kamarajar_back"  
-          android:layout_width="wrap_content"
+ <Button
+        android:id="@+id/kamarajar_back"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_marginTop="20dp"
-        android:text="@string/back"
-         android:onClick="kamarajar_back"
-          android:layout_below="@+id/kamarajar_content" />
-        
+        android:onClick="kamarajar_back"
+        android:text="@string/back" />
     <Button
         android:id="@+id/kamarajar_next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"        
-        android:text="@string/next" 
-           android:layout_marginTop="20dp"
-          android:layout_below="@+id/kamarajar_content"
-        android:onClick="kamarajar_next"/>
-    
-    
-
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:onClick="kamarajar_next"
+        android:text="@string/next" />
 </RelativeLayout>
+
+</LinearLayout>

@@ -1,51 +1,46 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity" 
-     android:orientation="vertical" 
-    android:background="#DDE787">
+<LinearLayout android:id="@+id/LinearLayout01"
+android:layout_width="fill_parent" android:layout_height="fill_parent"
+android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+ android:background="#DDE787"
+  xmlns:tools="http://schemas.android.com/tools"
+   tools:context=".MainActivity" >
+ <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"      
+        android:src="@drawable/barathi"
+           android:layout_marginTop="10dp" 
+           android:contentDescription="Barathi"/>
 
-    
-     <ImageView  
+<ScrollView
     android:layout_width="wrap_content"
-        android:layout_height="wrap_content"     
-          android:layout_marginBottom="20dp" 
-        android:src="@drawable/barathi"/>
-    
-    
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="@string/barathi"
-        android:layout_marginTop="20dp"        
-          android:id="@+id/barathi_content" />
-   
-   
+    android:layout_height="wrap_content"
+    android:layout_weight="0.55" >
 
-    
-    <Button
-          android:id="@+id/barathi_back"  
-         android:layout_width="wrap_content"
+    <TextView android:id="@+id/barathi_content" android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="@string/barathi"/>
+</ScrollView>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="60dp" >
+
+ <Button
+        android:id="@+id/barathi_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_marginTop="20dp"
-        android:text="@string/back"
-           android:layout_below="@+id/barathi_content"
-         android:onClick="barathi_back"        
-         />
-    
-    
+        android:onClick="barathi_back"
+        android:text="@string/back" />
     <Button
         android:id="@+id/barathi_next"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"  
-        android:text="@string/next" 
-           android:layout_alignParentRight="true"
-        android:layout_marginTop="20dp"
-          android:layout_below="@+id/barathi_content"
-        android:onClick="barathi_next"/>
-
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:onClick="barathi_next"
+        android:text="@string/next" />
 </RelativeLayout>
+
+</LinearLayout>

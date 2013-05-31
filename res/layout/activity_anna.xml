@@ -1,46 +1,46 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout android:id="@+id/LinearLayout01"
+android:layout_width="fill_parent" android:layout_height="fill_parent"
+android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+ android:background="#DDE787"
+  xmlns:tools="http://schemas.android.com/tools"
+   tools:context=".MainActivity" >
+ <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"      
+        android:src="@drawable/anna"
+           android:layout_marginTop="10dp" 
+           android:contentDescription="Anna"/>
+
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.55" >
+
+    <TextView android:id="@+id/anna_content" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/anna"/>
+</ScrollView>
+
+<RelativeLayout
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#DDE787"
-    android:orientation="vertical"
-    tools:context=".MainActivity" >
-    
-     <ImageView   
-         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"     
-          android:layout_marginBottom="20dp"
-        android:src="@drawable/anna"/>
-    
-    
-    <TextView
+    android:layout_height="60dp" >
+
+ <Button
+        android:id="@+id/anna_back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="@string/anna" 
-        android:layout_marginTop="20dp"
-           android:id="@+id/anna_content"/>
-
-  <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"       
-        android:text="@string/back"
-         android:onClick="anna_back" 
-          android:id="@+id/anna_back"  
-             android:layout_alignParentLeft="true"
-        android:layout_marginTop="20dp"
-             android:layout_below="@+id/anna_content"/>
-  
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:onClick="anna_back"
+        android:text="@string/back" />
     <Button
-         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"       
-        android:text="@string/restart"
-         android:onClick="anna_restart" 
-          android:id="@+id/anna_restart"  
-             android:layout_alignParentRight="true"
-        android:layout_marginTop="20dp"
-             android:layout_below="@+id/anna_content"/>  
-  
-
+        android:id="@+id/anna_restart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:onClick="anna_restart"
+        android:text="@string/restart" />
 </RelativeLayout>
+
+</LinearLayout>

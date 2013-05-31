@@ -1,46 +1,46 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity" 
-     android:orientation="vertical" 
-       android:background="#DDE787">
-    <ImageView
+<LinearLayout android:id="@+id/LinearLayout01"
+android:layout_width="fill_parent" android:layout_height="fill_parent"
+android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+ android:background="#DDE787"
+  xmlns:tools="http://schemas.android.com/tools"
+   tools:context=".MainActivity" >
+ <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"      
         android:src="@drawable/periyar"
-          android:layout_marginBottom="20dp"   />
-    
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="@string/periyar" 
-        android:layout_marginTop="20dp"        
-          android:id="@+id/periyar_content"
-      />
+           android:layout_marginTop="10dp" 
+           android:contentDescription="Periyar"/>
 
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.55" >
+
+    <TextView android:id="@+id/periyar_content" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/periyar"/>
+</ScrollView>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="60dp" >
 
  <Button
-        android:id="@+id/periyar_back"   
+        android:id="@+id/periyar_back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_marginTop="20dp"
-        android:layout_below="@id/periyar_content"
-        android:text="@string/back"        
-        android:onClick="periyar_back"/>
-
+        android:onClick="periyar_back"
+        android:text="@string/back" />
     <Button
         android:id="@+id/periyar_next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="20dp"
-        android:layout_below="@+id/periyar_content"
-        android:text="@string/next"        
         android:onClick="periyar_next"
-        />
-
+        android:text="@string/next" />
 </RelativeLayout>
+
+</LinearLayout>
