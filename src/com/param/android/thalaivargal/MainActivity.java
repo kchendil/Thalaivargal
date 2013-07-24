@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
@@ -89,5 +90,25 @@ public class MainActivity extends Activity {
 		return true;
 	}
 
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		// TODO Auto-generated method stub
+		
+		switch (item.getItemId()) {
+        case R.id.credits:
+        	 Intent intent = new Intent("com.param.android.thalaivargal.Credits");
+  		   startActivity(intent);
+            return true;     
+            
+        case R.id.exit:
+        	moveTaskToBack(true);
+        	MainActivity.this.finish();
+        return true;
+        default:
+            return super.onOptionsItemSelected(item);
+    }
+
+	}
+	
 }
 

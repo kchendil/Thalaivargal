@@ -7,8 +7,7 @@
     <string name="periyar">Erode Venkata Ramasamy is affectionately called by his followers as Periyar or Thanthai Periyar or E. V. R. He is the founder of Dravidar Kazhagam.He is called as Vaikom Hero for forming and succeeding the sathyagraha at Vaikom in Kerala against the anti-caste feelings. His Self-Respect Movement was begun to especially preach the inter-caste marriages and re-marriage of widows.It was his firm conviction that orthodoxy, superstition, social discrimination and many other evils which persisted in the society should go. He waged a relentless battle against these till the very end of his life.</string>
     <string name="kamarajar">Kamarajar was a former Chief Minister of TamilNadu. He is still remembered for bringing school education to millions of the rural poor by introducing free education and the free Midday Meal Scheme during his tenure as chief minister. He is renowned for bringing lot of industries in TamilNadu.</string>
     <string name="barathi">Named as Bharathi (meaning KALAIMAGAL) for his expertise in writing poems since childhood. He had written poems in many languages including Tamil, English, Sanskrit, Hindi, Bengal, French, etc. His poems stimulated the Indians to awake and fight against the British domination. His poems were not only helpful in spreading Tamil across the world but also brought freedom to women and society. One of his famous poems is ODDI VILAYADU PAPPA which is an evergreen memory for its vital message towards a child to develop his/her society</string>
-    <string name="vavusi">Valliappan Olaganthan Chidambaram Pillai popularly known by his initials, V.O.C. also known as Kappalottiya Tamilan "The Tamil Helmsman", was a Tamil political leader and a disciple of Bal Gangadhar Tilak.Inspired by the Swadeshi movement, V.O.C. mobilised the support of local merchants, and launched the first indigenous Indian shipping enterprise, the Swadeshi Steam Navigation Company, thus earning for himself the name - "Kappalottiya Tamilan கப்பலோட்டிய தமிழன்".
-          
+    <string name="vavusi">Valliappan Olaganthan Chidambaram Pillai popularly known by his initials, V.O.C. also known as Kappalottiya Tamilan "The Tamil Helmsman", was a Tamil political leader and a disciple of Bal Gangadhar Tilak.Inspired by the Swadeshi movement, V.O.C. mobilised the support of local merchants, and launched the first indigenous Indian shipping enterprise, the Swadeshi Steam Navigation Company, thus earning for himself the name - "Kappalottiya Tamilan கப்பலோட்டிய தமிழன்".         
           He was also known as  "Chekkiluththa Chemmal"  - a great man who pulled the oil press in jail for the sake of his people. He was an erudite scholar in Tamil, a prolific writer, a fiery speaker a trade union leader of unique calibre and a dauntless freedom fighter. His life is a story of resistance, strife, struggle, suffering and sacrifice for the cause to which he was committed. In accordance with his wishes, VOC  was taken to the Congress Office at Tuticorin, where he died on the 18th November, 1936</string>
     <string name="anna">C.N.Annadurai was a former Chief Minister of TamilNadu. People fondly called him as Anna. He was a popular orator and writer in both Tamil and English languages.</string>
     <string name="start_button_text">Start</string>
@@ -16,7 +15,8 @@
     <string name="next">Next</string>
     <string name="restart">Restart</string>
     <string name="credits">Credits</string>
-    <string name="app_desc">Click on the start button to start a slide show about the leaders of Tamil Nadu who have fought for the independence and the upliftment of the society.</string>
+    <string name="exit">Exit</string>
+    <string name="app_desc">Click on the start button to start a slide show about the leaders of Tamil Nadu who have fought for the independence and upliftment of the society.</string>
   
 </resources>
 

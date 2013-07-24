@@ -25,14 +25,7 @@ android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res
     android:layout_width="match_parent"
     android:layout_height="60dp" >
 
- <Button
-        android:id="@+id/periyar_back"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:onClick="periyar_back"
-        android:text="@string/back" />
+
     <Button
         android:id="@+id/periyar_next"
         android:layout_width="wrap_content"

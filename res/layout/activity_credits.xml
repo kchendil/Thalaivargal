@@ -1,0 +1,110 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   
+    android:orientation="vertical"
+    tools:context=".MainActivity" 
+    android:showDividers="beginning">
+    <TableRow 
+        android:textAlignment="center"
+         android:background="#AAFFDD"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Credits"
+            android:textAlignment="center"
+            android:textColor="#2B2036"
+            android:textSize="20dp" />
+
+    </TableRow>
+    <TableRow android:background="#AAFFDD" >
+     <TextView
+      
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""              
+        android:textColor="#2B2036"
+         />
+</TableRow>
+    <TableRow  android:background="#AAFFDD">
+ 
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.28" >
+
+    <TextView
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wikipedia(Content)"              
+        android:textColor="#2B2036"
+        android:textAlignment="center" />
+
+</ScrollView>
+</TableRow>
+<TableRow  android:background="#AAFFDD">
+     <TextView
+      
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""              
+        android:textColor="#2B2036"
+         />
+</TableRow>
+
+       <TableRow  android:background="#AAFFDD">
+ 
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.28" >
+
+    <TextView
+      
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mahalakshmi.D(Content)"              
+        android:textColor="#2B2036"
+        android:textAlignment="center" />
+
+</ScrollView>
+</TableRow>
+<TableRow  android:background="#AAFFDD">
+     <TextView
+      
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""              
+        android:textColor="#2B2036" />
+</TableRow>
+    <TableRow  android:background="#AAFFDD">
+ 
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.28" >
+
+    <TextView
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vivek Krishnan(Reviews)"              
+        android:textColor="#2B2036" 
+        android:textAlignment="center"/>
+
+</ScrollView>
+</TableRow>
+<TableRow  android:background="#AAFFDD" >
+     <TextView
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""              
+        android:textColor="#2B2036" />
+</TableRow>
+</TableLayout>
